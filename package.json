@@ -1,0 +1,17 @@
+{
+  "name": "component-register-ko-loader",
+  "description": "Webpack loader of for component-register-ko templates",
+  "author": "Ryan Carniato",
+  "license": "MIT",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "coffee --compile --bare --no-header --output ./ src/"
+  },
+  "devDependencies": {
+    "coffee-script": "*"
+  },
+  "dependencies": {
+    "component-register-ko": "*"
+  }
+}
