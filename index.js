@@ -1,4 +1,4 @@
-var preprocessor = require('component-register-ko/lib/preprocessor/index.js')
+var preprocessor = require('component-register-ko/lib/preprocessor.js')
 
 module.exports = function (content) {
   this.cacheable && this.cacheable()
